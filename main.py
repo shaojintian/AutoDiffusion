@@ -9,7 +9,7 @@ import torch
 import transformers
 
 import dataloader
-import diffusion
+import model.diffusion as diffusion
 import utils
 
 omegaconf.OmegaConf.register_new_resolver(
